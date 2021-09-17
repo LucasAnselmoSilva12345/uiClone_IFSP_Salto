@@ -1,0 +1,16 @@
+.social_icons_container {
+  max-width: 960px;
+  margin: -50px auto 20px;
+  padding: 20px 200px 20px 0;
+  float: right;
+}
+
+.social_icons ul {
+  display: flex;
+  gap: 5px;
+}
+
+.social_icons a img {
+  width: 20px;
+  height: 20px;
+}

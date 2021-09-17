@@ -1,0 +1,36 @@
+.about_bg {
+  background-color: #00420c;
+  border-bottom: 2px solid #00420c;
+}
+
+.about_container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.about_container_nav {
+  width: 100%;
+}
+
+.list_nav_about {
+  display: flex;
+  gap: 15px;
+
+  justify-content: center;
+}
+
+.list_nav_about li {
+  padding: 3px;
+}
+
+.list_nav_about li a {
+  color: #fff;
+  font-size: 0.875rem;
+
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.list_nav_about li a:hover {
+  text-decoration: underline;
+}

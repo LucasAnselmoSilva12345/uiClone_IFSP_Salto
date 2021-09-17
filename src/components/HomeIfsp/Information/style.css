@@ -1,0 +1,47 @@
+.barra_brasil_bg {
+  background-color: #f1f1f1;
+}
+
+.barra_brasil {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5px 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brasil_flag {
+  display: block;
+  padding-left: 42px;
+
+  background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2226%22%20height%3D%2219%22%20viewBox%3D%220%200%201000%20700%22%3E%3Cpath%20fill%3D%22%2300923F%22%20d%3D%22M0%200h1000v700H0z%22%2F%3E%3Cpath%20fill%3D%22%23F8C300%22%20d%3D%22M500%2085L85%20350l415%20265%20415-265L500%2085z%22%2F%3E%3Ccircle%20fill%3D%22%2328166F%22%20cx%3D%22499%22%20cy%3D%22350%22%20r%3D%22174%22%2F%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M395%20296c103%200%20199%2038%20272%20101%202-8%204-17%205-26-75-61-172-98-277-98-18%200-36%201-53%203-3%208-6%2016-9%2025%2020-3%2041-4%2063-4z%22%2F%3E%3C%2Fsvg%3E')
+    8px center no-repeat;
+}
+
+a.link_barra {
+  text-transform: uppercase;
+  color: #606060;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.list_navigation {
+  display: flex;
+  gap: 25px;
+}
+
+.list_navigation li a {
+  color: #646060;
+  font-size: 14px;
+  font-weight: 700;
+
+  text-transform: capitalize;
+}
+
+.list_navigation .list_li a {
+  color: #f91e00;
+  text-transform: uppercase;
+}
