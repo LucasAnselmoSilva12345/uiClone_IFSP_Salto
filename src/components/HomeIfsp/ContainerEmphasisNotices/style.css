@@ -1,0 +1,87 @@
+.container_emphasis_notices {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 35px;
+
+  margin-top: 25px;
+
+  padding: 15px 5px;
+}
+
+.emphasis {
+  width: 100%;
+}
+
+.emphasis .title {
+  background-color: #eeeff2;
+  border-top: 4px solid #147a02;
+  padding: 10px 10px 20px 10px;
+}
+
+.emphasis .title span {
+  font-size: 1rem;
+  text-transform: capitalize;
+
+  color: #147a02;
+}
+
+.emphasis .subtitle {
+  margin-top: 25px;
+  background-color: #f1f1f1;
+
+  text-align: left;
+}
+
+.emphasis .subtitle h4 a {
+  color: #333;
+  text-transform: uppercase;
+}
+
+.emphasis .subtitle p {
+  font-size: 0.875rem;
+}
+
+.notices .title {
+  background-color: #eeeff2;
+  border-top: 4px solid #147a02;
+  padding: 10px 10px 20px 10px;
+}
+
+.notices .title span {
+  font-size: 1rem;
+  text-transform: capitalize;
+
+  color: #147a02;
+}
+
+.notices .subtitle {
+  margin-top: 25px;
+  background-color: #f1f1f1;
+
+  text-align: left;
+}
+
+.notices .subtitle h4 a {
+  color: #333;
+  text-transform: uppercase;
+}
+
+.notices .subtitle p {
+  font-size: 0.875rem;
+}
+
+.baseboard {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.baseboard a {
+  font-size: 0.875rem;
+  color: #08c;
+  transition: 0.5s;
+}
+
+.baseboard a:hover {
+  color: #1864ab;
+}

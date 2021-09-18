@@ -19,3 +19,21 @@
 .imagePrevious img {
   height: 285px;
 }
+
+.container_notices {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 25px;
+}
+
+.noticesleft h4 a,
+.noticescenter h4 a,
+.noticesright h4 a {
+  font-size: 0.875rem;
+  font-weight: 600;
+
+  color: #333;
+
+  text-transform: uppercase;
+}
