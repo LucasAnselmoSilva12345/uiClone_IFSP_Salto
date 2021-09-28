@@ -1,5 +1,5 @@
 .barra_brasil_bg {
-  background-color: #f1f1f1;
+  background-color: var(--color_f1f1f1);
 }
 
 .barra_brasil {
@@ -23,7 +23,7 @@
 
 a.link_barra {
   text-transform: uppercase;
-  color: #606060;
+  color: var(--color_606060);
   font-size: 16px;
   font-weight: 700;
 }
@@ -34,7 +34,7 @@ a.link_barra {
 }
 
 .list_navigation li a {
-  color: #646060;
+  color: var(--color_646060);
   font-size: 14px;
   font-weight: 700;
 
@@ -42,6 +42,6 @@ a.link_barra {
 }
 
 .list_navigation .list_li a {
-  color: #f91e00;
+  color: var(--color_f91e00);
   text-transform: uppercase;
 }

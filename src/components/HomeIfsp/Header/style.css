@@ -1,7 +1,11 @@
 .container_bg {
   margin: 0 auto;
 
-  background: radial-gradient(ellipse at center, #17882c 1%, #00510f 100%);
+  background: radial-gradient(
+    ellipse at center,
+    var(--color_17882c) 1%,
+    var(--color_00510f) 100%
+  );
 }
 
 .container {
@@ -13,13 +17,13 @@
   align-items: center;
   justify-content: space-between;
 
-  color: #fff;
+  color: var(--color_fff);
 }
 
 a.portal_preTitle {
   font-size: 0.85rem;
   text-transform: capitalize;
-  color: white;
+  color: var(--color_fff);
 }
 
 h1.portal_title {
@@ -39,7 +43,7 @@ span.portal_subTitle {
 }
 
 .navigation_search {
-  background-color: #fff;
+  background-color: var(--color_fff);
   padding: 4px 18px;
   border-radius: 4px;
 }
@@ -56,7 +60,7 @@ span.portal_subTitle {
 .navigation_search .btn_search {
   position: relative;
   border: none;
-  background: #fff;
+  background: var(--color_fff);
 }
 
 .navigation_search .btn_search img {

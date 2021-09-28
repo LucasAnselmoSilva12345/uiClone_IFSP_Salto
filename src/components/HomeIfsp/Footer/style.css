@@ -1,5 +1,5 @@
 .container_footer {
-  background-color: #00420c;
+  background-color: var(--color_00420c);
 
   margin-top: 50px;
   height: 500px;
@@ -21,7 +21,7 @@
   font-size: 1.25rem;
   font-weight: 400;
   text-transform: capitalize;
-  color: #61b05f;
+  color: var(--color_61b05f);
 
   margin-bottom: 10px;
 }
@@ -37,7 +37,7 @@
 .about ul li a,
 .network ul li a,
 .about_this ul li a {
-  color: #fff;
+  color: var(--color_fff);
 
   font-size: 0.875rem;
   text-transform: capitalize;
@@ -51,7 +51,7 @@
 }
 
 .container_footer_baseboard {
-  background-color: #002907;
+  background-color: var(--color_002907);
   height: 100px;
 }
 
@@ -80,11 +80,11 @@
 }
 
 .creators span {
-  color: #333;
+  color: var(--color_333);
 }
 
 .creators h4 a {
-  color: #0041b2;
+  color: var(--color_0041b2);
 
   text-transform: capitalize;
   font-weight: 700;

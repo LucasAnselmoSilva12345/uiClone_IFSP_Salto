@@ -15,7 +15,7 @@
 }
 
 .navigation_site ul li {
-  color: #dcffe3;
+  color: var(--color_dcffe3);
   font-size: 0.7rem;
 
   transition: 0.5s;
@@ -24,7 +24,7 @@
 }
 
 .navigation_site ul li:hover {
-  background-color: #cad2cc;
+  background-color: var(--color_cad2cc);
 }
 
 .navigation_config {
@@ -32,12 +32,12 @@
   align-items: center;
   gap: 15px;
 
-  border-bottom: 1px dotted #abbeb0;
+  border-bottom: 1px dotted var(--color_abbeb0);
 }
 
 .navigation_config a {
   font-size: 0.73rem;
-  color: #fff;
+  color: var(--color_fff);
   cursor: pointer;
   text-transform: uppercase;
 }

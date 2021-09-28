@@ -122,11 +122,10 @@ export function Footer() {
         <div className="creators">
           <span>Desenvolvido por:</span>
           <h4>
-            <a href="/"> lucas anselmo moraes da silva </a>
-          </h4>
-          <p>e</p>
-          <h4>
-            <a href="/"> renato luciano dos santos </a>
+            <a href="https://www.linkedin.com/in/lucas-anselmo-moraes-da-silva-543636161/">
+              {' '}
+              lucas anselmo moraes da silva{' '}
+            </a>
           </h4>
         </div>
       </div>

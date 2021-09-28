@@ -12,7 +12,7 @@
   width: 160px;
   margin: auto auto 10px 8px;
 
-  background-color: #eaebee;
+  background-color: var(--color_eaebee);
 }
 
 .custom-date h3 {
@@ -25,7 +25,7 @@
 
   text-transform: uppercase;
 
-  color: #00500f;
+  color: var(--color_00500f);
 
-  border-top: 3px solid #00500f;
+  border-top: 3px solid var(--color_00500f);
 }

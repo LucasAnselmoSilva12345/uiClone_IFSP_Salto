@@ -1,5 +1,5 @@
 .section_row {
-  background-color: #e8e7e7;
+  background-color: var(--color_e8e7e7);
   padding: 0 10px 0 0;
   display: flex;
 }
@@ -15,8 +15,8 @@
   font-weight: 400;
   line-height: 1;
 
-  color: #fff;
-  background-color: #717782;
+  color: var(--color_fff);
+  background-color: var(--color_717782);
 
   text-align: center;
   text-transform: uppercase;
@@ -33,7 +33,7 @@
   line-height: 1;
   padding: 7px 5px;
 
-  color: #333;
+  color: var(--color_333);
 
   text-transform: uppercase;
 }

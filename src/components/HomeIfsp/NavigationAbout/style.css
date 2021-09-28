@@ -1,6 +1,6 @@
 .about_bg {
-  background-color: #00420c;
-  border-bottom: 2px solid #00420c;
+  background-color: var(--color_00420c);
+  border-bottom: 2px solid var(--color_00420c);
 }
 
 .about_container {
@@ -24,7 +24,7 @@
 }
 
 .list_nav_about li a {
-  color: #fff;
+  color: var(--color_fff);
   font-size: 0.875rem;
 
   text-transform: capitalize;
