@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import espacoAluno from '../../../assets/homeIfsp/espacoAluno.png';
 import espacoServidor from '../../../assets/homeIfsp/espacoServidor.png';
 import processoSeletivo from '../../../assets/homeIfsp/processoSeletivo.jpg';
@@ -45,6 +47,11 @@ export function SideSearchBar() {
       </div>
       <div className="custom-date">
         <h3>sistemas</h3>
+      </div>
+      <div className="custom-date-codigo">
+        <h3>
+          <Link to="/">Códigos das salas</Link>
+        </h3>
       </div>
     </div>
   );

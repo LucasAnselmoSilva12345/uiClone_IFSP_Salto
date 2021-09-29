@@ -45,3 +45,9 @@ a.link_barra {
   color: var(--color_f91e00);
   text-transform: uppercase;
 }
+
+@media (max-width: 959px) {
+  .barra_brasil_bg {
+    display: none;
+  }
+}

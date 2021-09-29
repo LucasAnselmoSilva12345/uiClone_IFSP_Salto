@@ -45,3 +45,12 @@
 .navigation_config a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 959px) {
+  .navigation_container {
+    display: block;
+  }
+  .navigation_config {
+    margin-top: 25px;
+  }
+}

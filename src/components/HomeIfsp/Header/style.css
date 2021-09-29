@@ -69,3 +69,9 @@ span.portal_subTitle {
 }
 
 /* open_sansextrabold,'Open Sans',Arial,Helvetica,sans-serif */
+
+@media (max-width: 959px) {
+  .navigation_search {
+    display: none;
+  }
+}

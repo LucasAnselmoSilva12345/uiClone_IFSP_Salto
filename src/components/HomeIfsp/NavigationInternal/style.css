@@ -41,3 +41,14 @@
 .itens_destaque a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 959px) {
+  .section_row {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .lista_destaque {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}

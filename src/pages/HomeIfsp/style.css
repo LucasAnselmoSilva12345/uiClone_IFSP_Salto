@@ -37,3 +37,14 @@
 
   text-transform: uppercase;
 }
+
+@media (max-width: 959px) {
+  .container_notices {
+    flex-direction: column;
+  }
+  .noticesleft,
+  .noticescenter,
+  .noticesright {
+    margin-bottom: 25px;
+  }
+}

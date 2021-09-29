@@ -34,3 +34,9 @@
 .list_nav_about li a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 959px) {
+  .list_nav_about {
+    flex-direction: column;
+  }
+}
