@@ -1,6 +1,6 @@
 # UI Clone - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - Campus Salto. 
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/190690980@N06/51767417344/in/dateposted-public/" title="UI Clone - IFSP Salto"><img src="https://live.staticflickr.com/65535/51767417344_9a816cf7b6_k.jpg" width="1219" height="2048" alt="UI Clone - IFSP Salto"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/190690980@N06/51767417344/in/dateposted-public/" title="UI Clone - IFSP Salto"><img src="https://live.staticflickr.com/65535/51767417344_9a816cf7b6_k.jpg" width="1219" height="2048" alt="UI Clone - IFSP Salto"></a>
 
 ### [Site IFSP Salto Original](https://slt.ifsp.edu.br/)
 
